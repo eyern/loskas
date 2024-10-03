@@ -66,7 +66,7 @@
             { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } },
         ],
     });
-    $(".counter-stat span").counterUp({ delay: 10, time: 1e3 });
+    $(".counter-stat span").counterUp({ delay: 10, time: 8e3 });
     $(".js-scroll-trigger").click(function () {
         window.scrollTo(0, 0);
     });
